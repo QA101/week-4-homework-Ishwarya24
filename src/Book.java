@@ -5,7 +5,9 @@ public class Book{
 	String category;
 	String summary;
 	
-	
+	/*
+	 * Constructor for the book
+	 */
 	public Book(String title, int pages, String category, String summary) {
 		this.title = title;
 		this.pages = pages;
@@ -20,17 +22,4 @@ public class Book{
 	public String Details() {
 		return "Title: " + title + ", #pages: " + pages + ", Summary: " + summary;
 	}
-	
-	public String getTitle() {
-		return title;
-	}
-	
-	public int getPages() {
-		return pages;
-	}
-	
-	public String getcategory() {
-		return category;
-	}
-
 }

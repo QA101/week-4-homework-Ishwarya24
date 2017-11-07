@@ -68,7 +68,7 @@ public class Library {
 	 * Sorting based on title
 	 * Creating a new comparator for using the title of the book for comparison
 	 */
-	public static void SortLibrary() {
+	public void SortLibrary() {
 		Books.sort(new Comparator<Book>(){
 			@Override
 			public int compare(Book b1, Book b2) {
