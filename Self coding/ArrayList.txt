@@ -1,0 +1,134 @@
+1. Return the sum of all the numbers at even positions in the array list.
+
+Important Note: Copy the following two methods into the window and 
+don't change sumEvenIndexes.  Enter your code into method sumEvenIndexesB:
+
+public int sumEvenIndexes(int[] nums) { 
+
+    ArrayList<Integer> numsList = new ArrayList<Integer>();
+    for (int i=0; i<nums.length; i++)
+    {
+       numsList.add(nums[i]);
+    }
+    
+    return sumEvenIndexesB(numsList);
+}
+
+public int sumEvenIndexesB(ArrayList<Integer> numsList) 
+{     
+
+}
+
+// Test Scenarios:
+
+
+sumEvenIndexes([1, 2, 3, 4]) → 4
+sumEvenIndexes([8, 16, 10]) → 18
+sumEvenIndexes([5, 0, -10]) → -5
+
+
+
+
+
+2. Return the count of all the even numbers in the array list. Hint: The % operator may be useful.
+
+Important Note: Copy the following two methods into the window and 
+don't change evenCount.  Enter your code into method evenCountB:
+
+public int evenCount(int[] nums) { 
+
+    ArrayList<Integer> numsList = new ArrayList<Integer>();
+    for (int i=0; i<nums.length; i++)
+    {
+       numsList.add(nums[i]);
+    }
+    
+    return evenCountB(numsList);
+}
+
+public int evenCountB(ArrayList<Integer> numsList) 
+{     
+
+}
+
+// Test Scenarios:
+
+
+evenCount([1, 2, 3, 4]) → 2
+evenCount([8, 16, 10]) → 3
+evenCount([5, 0, 22]) → 2
+
+
+
+
+3. Given a string, return an array list that contains each character of the string in backwards order.
+
+Important Note: Copy the following two methods into the window and 
+don't change catty.  Enter your code into method cattyB:
+
+public String[] backwardChars(String str) { 
+
+    ArrayList<String> charsList = backwardCharsB(str);
+    
+    String chars[] = new String[charsList.size()];
+    for (int i=0; i<charsList.size(); i++)
+    {
+       chars[i]=charsList.get(i);
+    }
+
+    return chars;
+}
+
+public ArrayList<String> backwardCharsB(String str) 
+{    
+
+}
+
+// Test Scenarios:
+
+
+backwardChars("Career Center") → ["r", "e", "t", "n", "e", "C", " ", "r", "e", "e", "r", "a", "C"]
+backwardChars("football") → ["l", "l", "a", "b", "t", "o", "o", "f"]
+backwardChars("?") → ["?"]
+
+
+4. An array list contains a list of animals. If the animal is a cat (i.e. the animal's descrition contains the word "cat" or "Cat"), then add it to a new array list. Return the new array list of cats.
+
+Important Note: Copy the following two methods into the window and 
+don't change catty.  Enter your code into method cattyB:
+
+public String[] catty(String[] animals) { 
+
+    ArrayList<String> animalsList = new ArrayList<String>();
+    for (int i=0; i<animals.length; i++)
+    {
+       animalsList.add(animals[i]);
+    }
+    
+    ArrayList<String> catsList = cattyB(animalsList);
+    
+    String cats[] = new String[catsList.size()];
+    for (int i=0; i<catsList.size(); i++)
+    {
+       cats[i]=catsList.get(i);
+    }
+
+    return cats;
+}
+
+public ArrayList<String> cattyB(ArrayList<String> animalsList) 
+{    
+
+}
+
+// Test Scenarios:
+
+
+catty(["buffalo", "dog"]) → []
+catty(["bobcat", "siamese cat", "catbird"]) → ["bobcat", "siamese cat", "catbird"]
+catty(["Cat", "frog", "mouse"]) → ["Cat"]
+
+
+
+
+
