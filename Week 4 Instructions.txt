@@ -1,6 +1,10 @@
 1. Reading:
+ArrayLists - Chapter 10.1
+ArrayLists - http://javaconceptoftheday.com/java-arraylist-programming-examples/
 
-http://javaconceptoftheday.com/java-arraylist-programming-examples/ - ArrayLists
+Methods - Chapter 3.2 !!! (Important for next class)
+Objects - Chapter 3.3 !!! (Important for next class)
+Classes - Chapter 8 !!! (Important for next class)
 
 
 2. Videos:
@@ -16,8 +20,8 @@ User input: https://www.youtube.com/watch?v=h9_FGMo0Tbg&index=7&list=PL9DF6E4B45
 
 3. PracticeIT:
 
-Chapter 6: Self-Check 6.1-6.7
 Chapter 10: Self-Check 10.2 / 10.8 / 10.15-10.18
+Chapter 8: Self-Check 8.4 / 8.7 / 8.9 / 8.10 / 8.13 / 8.17 / 8.20 / 8.23 / 
 
 
 4. Coding exercises in Self coding folder 
