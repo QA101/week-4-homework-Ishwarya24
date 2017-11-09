@@ -30,9 +30,9 @@ public class School {
 	public static void main(String args[]) {
 		//TODO create a school (similar to the library)
 		
-		//Print the toString method in school. Such as, school.toString()
+		//TODO Print the toString method in school. Such as, school.toString()
 		
-		//Print any other variables that make sense for a school. Be creative.
+		//TODO Print any other variables that make sense for a school. Be creative.
 	}
 	
 	/**
