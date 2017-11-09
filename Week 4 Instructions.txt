@@ -1,10 +1,5 @@
 1. Reading:
 
-Chapter 6: 6.1 - 6.4 - File processing
-Chapter 11: 11.1 - Lists / 11.3 - Maps
-
-https://www.tutorialspoint.com/java/java_files_io.htm - Input/Output
-
 http://javaconceptoftheday.com/java-arraylist-programming-examples/ - ArrayLists
 
 
@@ -17,8 +12,6 @@ ArrayLists: https://www.youtube.com/watch?v=s8ju-dZJJ50
 Methods: http://beginnersjava.com/java-tutorial-16-introduction-to-methods/
 
 User input: https://www.youtube.com/watch?v=h9_FGMo0Tbg&index=7&list=PL9DF6E4B45C36D411 
-
-File I/O: https://www.youtube.com/watch?v=_jhCvy8_lGE
 
 
 3. PracticeIT:
