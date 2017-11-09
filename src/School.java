@@ -13,6 +13,8 @@ import java.util.ArrayList;
  * 
  * Be creative.
  * 
+ * CHALLENGE: Can a school have a library?
+ * 
  * @author dustin
  *
  */
